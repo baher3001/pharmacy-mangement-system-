@@ -1,0 +1,24 @@
+table im admin 
+
+layout user 
+user 
+login 
+signup 
+home
+in it 
+
+
+
+
+name 
+mail
+pass 
+phone
+location 
+secureCode 
+active
+
+table users 
+
+
+the next time login 

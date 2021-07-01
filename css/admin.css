@@ -1,0 +1,26 @@
+body
+{
+    background-color: #2980b9;
+}
+
+.sign-up
+{
+    width: 350px;
+    margin: 20vh auto !important;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 25px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+.alert
+{
+    width: 350px;
+    margin: 10vh auto;
+    margin-bottom: 0;
+}
+
+small
+{
+    display: none;
+}

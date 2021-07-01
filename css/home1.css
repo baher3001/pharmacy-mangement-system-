@@ -1,0 +1,416 @@
+nav
+{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+
+}
+nav .container
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 100%;
+
+}
+nav .nav-content ul
+{
+    list-style: none;
+    margin-top: 15px;
+}
+
+
+nav .burger
+{
+    display: none;
+}
+
+
+/* start header here */
+header
+{
+    width: 100%;
+    height: 100vh;
+    background-image:  linear-gradient(to right bottom , rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url('https://images.pexels.com/photos/6074924/pexels-photo-6074924.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+header .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+header .content h2 
+{
+    font-size: 65px;
+    color: #fff;
+    margin-bottom: 50px;
+    font-weight: 800;
+}
+header .content p 
+{
+    margin-bottom: 50px;
+    color: #fff;
+    font-size:25px;
+}
+
+/* end header here  */
+
+
+/* nedicine */
+.medicine
+{
+    width: 100%;
+    height: 550px;
+
+}
+
+.medicine h3
+{
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.medicine h3::before
+{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 120px;
+    height: 2px;
+    background-color: blue;
+}
+
+.medicine .box
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.medicine img
+{
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.medicine .card
+{
+    background-color: #fff;
+    width: 250px;
+    text-align: center;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+    border-radius: 6px;
+}
+
+
+/* btn1 */
+.owl-dots
+{
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+
+
+
+/* btn  */
+.owl-dot
+{
+    height: 15px;
+    width: 45px;
+    margin: 0px 5px;
+    border: 2px solid #0072bc !important;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+
+}   
+
+.owl-dot:hover,.owl-dot:active
+{
+    background:#0072bc !important ;
+
+}
+
+@media(max-width:600px)
+{
+    .medicine
+    {
+        height: 800px;
+    }
+    .card 
+    {
+        width: 100% !important;
+    }
+}
+
+
+.btns
+{
+    width:100%;
+    height: 100px;
+    /* display: flex;
+    /* align-items: center; */
+   
+}
+
+
+/* end  */
+
+/* start sign-up */
+.sign-up
+{
+    width: 350px;
+    min-height:550px !important; 
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 25px auto;
+    z-index: 2;
+    transform: translateY(180%); /* 180 */
+    transition: all 1s ease-in-out;
+}
+
+.sign-up-active
+{
+    transform: translateY(0%);
+}
+
+
+.sign-up form
+{
+    margin-top: 40px;
+}
+
+.sign-up .form-group input 
+{
+    margin-bottom: 10px !important;
+}
+
+small 
+{
+    color: red;
+    display: none;
+}
+
+
+.sign-up .close
+{
+    cursor: pointer;
+    width: 42px;
+    height: 45px;
+    background-color: #fff;
+    color: grey;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+    text-align: center;
+    line-height: 45px;
+}
+/* end  */
+
+
+/* log start  */
+.log
+{
+    width: 350px;
+    height: 300px;
+    max-height: 450px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 25px auto;
+    z-index: 3;
+    transform: translateX(-250%);/* -250 */
+    transition: all 1s ease-in-out;
+}
+
+
+.log-active
+{
+    transform: translateY(0);
+}
+
+
+.log form
+{
+    margin-top: 40px;
+}
+
+.log .form-group input 
+{
+    margin-bottom: 10px !important;
+}
+
+small 
+{
+    color: red;
+    display: none;
+}
+
+
+.log .close
+{
+    cursor: pointer;
+    width: 42px;
+    height: 45px;
+    background-color: #fff;
+    color: grey;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+    text-align: center;
+    line-height: 45px;
+}
+
+
+/* log end */
+
+
+/* info  start */
+.info 
+{
+    width: 100%;
+    height: 350px;
+
+}
+.info .container
+{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.info p
+{
+    margin-top: 30px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.info-logo
+{
+    position: relative;
+    cursor: pointer;
+}
+
+.icon 
+{
+    width: 42px;
+    height: 45px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+/* info end  */
+
+
+/* popup-video  */
+.popup-video
+{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 4;
+    transform: translateX(150%);
+    transition: all 2s ease-in-out;
+}
+.popup-video .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.popup-video .close
+{
+    margin-right: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 42px;
+    height: 45px;
+     color: grey;
+     border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+    text-align: center;
+    line-height: 45px;
+}
+
+.popup-video-active
+{
+    transform: translateX(0%);
+}
+
+
+/* popup-video  */
+
+footer
+{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:539px)
+{
+  .btns
+  {
+    height: 50px;
+  }
+  .info
+  {
+      height: 650px;
+  }
+
+
+}
+
+@media(min-width:540px) and (max-width:540px)
+{
+    .btns
+    {
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .info
+    {
+        height: 850px;
+    }
+   
+}
